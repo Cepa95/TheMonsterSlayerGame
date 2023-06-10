@@ -118,3 +118,16 @@ button:disabled {
 .log--heal {
   color: green;
 }
+
+.surrender {
+  font: inherit;
+  border: 1px solid #f80000;
+  background-color: #f80000;
+  color: white;
+  padding: 1rem 2rem;
+  border-radius: 12px;
+  margin: 1rem;
+  width: 12rem;
+  cursor: pointer;
+  box-shadow: 1px 1px 4px rgba(0, 0, 0, 0.26);
+}
