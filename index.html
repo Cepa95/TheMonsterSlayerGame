@@ -20,13 +20,13 @@
       <section id="monster" class="container">
         <h2>Monster Health</h2>
         <div class="healthbar">
-          <div class="healthbar__value" :style="monsterBarStyles"></div>
+          <div class="healthbar__value" :style="monsterBarStyles"> {{ monsterHealth }}</div>
         </div>
       </section>
       <section id="player" class="container">
         <h2>Your Health</h2>
         <div class="healthbar">
-          <div class="healthbar__value" :style="playerBarStyles"></div>
+          <div class="healthbar__value" :style="playerBarStyles"> {{ playerHealth }}</div>
         </div>
       </section>
       <section class="container" v-if="winner">
@@ -41,13 +41,13 @@
         <button :disabled="mayUseSpecialAttack" @click="specialAttackMonster">
           SPECIAL ATTACK
         </button>
-        <button @click="healPlayer">HEAL</button>
+        <button :disabled="mayHeal" @click="gamble">GAMBLE</button>
         <button @click="surrender">SURRENDER</button>
       </section>
       <section id="log" class="container">
-        <h2>Battle Log</h2>
+        <h2>Last Battle result</h2>
         <ul>
-          <li v-for="logMessage in logMessages">
+          <li v-for="logMessage in lastTwoLogMessages" :key="logMessage.id">
             <span :class="{ 'log--player': logMessage.actionBy === 'player', 'log--monster': logMessage.actionBy === 'monster' }">
               {{ logMessage.actionBy === 'player' ? 'Player ' : 'Monster '}}
             </span>
@@ -59,7 +59,9 @@
             </span>
           </li>
         </ul>
-      </section>      
+      </section>
+      
+                
     </div>
   </body>
 </html>
