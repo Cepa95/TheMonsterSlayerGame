@@ -41,7 +41,8 @@
         <button :disabled="mayUseSpecialAttack" @click="specialAttackMonster">
           SPECIAL ATTACK
         </button>
-        <button :disabled="mayHeal" @click="gamble">GAMBLE</button>
+        <button :disabled="mayGamble" @click="gamble">GAMBLE</button>
+        <button :disabled="mayHeal" @click="healEveryone(20)">HEAL EVERYONE</button>
         <button @click="surrender">SURRENDER</button>
       </section>
       <section id="log" class="container">
