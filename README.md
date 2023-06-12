@@ -1,14 +1,13 @@
 # TheMonsterSlayerGame
 
-![starting](https://github.com/Cepa95/TheMonsterSlayerGame/assets/124800316/f8cc2cbf-826a-4b71-b289-4f1cd72bbbd5)
+![starting](https://github.com/Cepa95/TheMonsterSlayerGame/assets/124800316/b7fb4136-4a9c-4513-8d1c-6ac9575c20b7)
 
-![monsterSlayer](https://github.com/Cepa95/TheMonsterSlayerGame/assets/124800316/106265d5-ea50-4e95-b7e6-08b086e982c4)
+![monsterSlayer](https://github.com/Cepa95/TheMonsterSlayerGame/assets/124800316/ae77bad8-d0a3-49f4-ac30-82ac2df74908)
 
+![healing](https://github.com/Cepa95/TheMonsterSlayerGame/assets/124800316/f8dba6b9-6800-4cdb-9e45-c80881df9113)
 
-![healing](https://github.com/Cepa95/TheMonsterSlayerGame/assets/124800316/391f9a62-1b70-43d0-880c-699d69e3f29f)
+![lost](https://github.com/Cepa95/TheMonsterSlayerGame/assets/124800316/cc7b357a-e457-4c1c-8e23-6ea41d84976f)
 
-
-![lost](https://github.com/Cepa95/TheMonsterSlayerGame/assets/124800316/a5bc16f9-aa06-445a-997a-88d6abd039c9)
 
 
 ## Rules:
